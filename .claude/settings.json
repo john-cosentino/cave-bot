@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python *)",
+      "Bash(.venv/bin/pip list)",
+      "Bash(PYTHONPATH=src .venv/bin/python -m unittest discover -s tests)"
+    ]
+  }
+}
